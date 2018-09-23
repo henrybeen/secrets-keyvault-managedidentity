@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "Demo.KeyVaultManagedIdentity.Deployment", "Demo.KeyVaultManagedIdentity.Deployment\Demo.KeyVaultManagedIdentity.Deployment.deployproj", "{B9CD45F8-7EC1-46E0-821F-A819E52C6615}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.KeyVaultManagedIdentity.Application", "Demo.KeyVaultManagedIdentity.Application\Demo.KeyVaultManagedIdentity.Application.csproj", "{6190C266-C099-489E-BF8D-76F9A04799A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B9CD45F8-7EC1-46E0-821F-A819E52C6615}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9CD45F8-7EC1-46E0-821F-A819E52C6615}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9CD45F8-7EC1-46E0-821F-A819E52C6615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6190C266-C099-489E-BF8D-76F9A04799A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6190C266-C099-489E-BF8D-76F9A04799A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6190C266-C099-489E-BF8D-76F9A04799A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6190C266-C099-489E-BF8D-76F9A04799A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
